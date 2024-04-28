@@ -1,0 +1,14 @@
+.specialty-child {
+  cursor: pointer;
+  .specialty-name {
+    color: #ff5722; /* Màu chữ nổi bật */
+  text-align: center; /* Căn giữa */
+  font-size: 18px; /* Kích thước chữ */
+  font-weight: bold; /* Độ đậm của chữ */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Hiệu ứng text shadow */
+    padding: 10px 10px;
+    &:hover {
+      color: #45c3d2;
+    }
+  }
+}
